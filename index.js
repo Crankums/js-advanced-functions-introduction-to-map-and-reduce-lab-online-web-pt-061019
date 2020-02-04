@@ -18,5 +18,5 @@ function mapToSquare(arr) {
 function reduceToTotal(arr, startingPoint) {
   // if (!startingPoint) {
   //   arr.reduce(memo => memo)
-  
+
 }
