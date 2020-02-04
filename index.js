@@ -14,3 +14,9 @@ function mapToDouble(arr) {
 function mapToSquare(arr) {
   return arr.map(el => el ** 2)
 }
+
+function reduceToTotal(arr, startingPoint) {
+  // if (!startingPoint) {
+  //   arr.reduce(memo => memo)
+  }
+}
