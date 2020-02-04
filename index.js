@@ -4,5 +4,6 @@ function mapToNegativize(arr){
 }
 
 function mapToNoChange(arr) {
-  return arr
+  return arr.map(el => el)
 }
+
