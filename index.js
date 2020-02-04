@@ -16,7 +16,9 @@ function mapToSquare(arr) {
 }
 
 function reduceToTotal(arr, startingPoint) {
-  // if (!startingPoint) {
-  //   arr.reduce(memo => memo)
-
+  let total = startingPoint
+  for (let i=0, i < arr.length, i++) {
+    total += arr[i]
+  }
+  return total
 }
