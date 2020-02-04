@@ -15,7 +15,7 @@ function mapToSquare(arr) {
   return arr.map(el => el ** 2)
 }
 
-function reduceToTotal(arr, startingPoint) {
+function reduceToTotal(arr, startingPoint=0) {
   let total = startingPoint
   for (let i=0; i < arr.length; i++) {
     total += arr[i]
